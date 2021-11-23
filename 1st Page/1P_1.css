@@ -1,0 +1,371 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    height: 45px;
+    width: 100px;
+}
+nav{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul a{
+    color: #0A7258;
+    margin: 0 1rem;
+    font-size: 18px;
+}
+
+nav ul a:hover{
+    color: #2cfac6;
+}
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#btn1{
+    outline: none;
+    border: 0;
+    padding: 14px 25px;
+    border-radius: 30px;
+    background-color: #23AD8B;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#btn1:hover{
+    background-color: #2cfac6;
+}
+#btn2{
+    outline: none;
+    border: solid 2px #23AD8B;
+    padding: 13px 25px;
+    border-radius: 30px;
+    background-color: white;
+    color: #23AD8B;
+    cursor: pointer;
+    transition:0.7s;
+}
+#btn2:hover{
+    background-color: #8ae6cf;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/pexels-mateusz-sałaciak-4275885.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 690px;
+    color: white;
+}
+.H1{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+#search_div{
+    position: relative;
+    width: 500px;
+}
+#arrow_link{
+    position: absolute;
+    top: 26px;
+    right: 0;
+    padding-right: 5px;
+}
+#arrow_link i{
+    color: #23AD8B;
+}
+.Search{
+    position: absolute;
+    top: 15px;
+    width: 495px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    color: black;
+    opacity: 0.4;
+    padding-left: 9px;
+}
+.Search:focus{
+    outline: none;
+}
+#A{
+    margin-left: 17px;
+}
+#img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 20px 0 0 20px;
+}
+#img img{
+    width: 100%;
+    border-radius: 20px;
+    height: 200px;
+}
+.img_cont{
+    width: 30%;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.img_cont span{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+#cont-1{
+    display: flex;
+    align-items: center;
+}
+#main_right{
+    margin-left: 20px;
+}
+
+#main_right h2{
+    margin-bottom: 35px;
+    font-size: 35px;
+    color: #4B4A4A;
+}
+#main_right P{
+    font-size: 20px;
+    color: #4B4A4A;
+}
+#btn3{
+    outline: none;
+    border: solid 2px #23AD8B;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: white;
+    color: #23AD8B;
+    cursor: pointer;
+    transition:0.7s;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#btn3:hover{
+    background-color: #cff7ed;
+}
+#background2 img{
+    width: 100%;
+    height: 773px;
+}
+#background2{
+    margin-top: 40px;
+    position: relative;
+}
+#background2 h1{
+    position: absolute;
+    top: 25%;
+    left: 35px;
+    font-size: 90px;
+    color: white;
+}
+.s{
+    color: #E3C02D;
+    font-size: 87px;
+}
+
+footer{
+    height: 100%;
+    background-color: #E6F5F2;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#footer_list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#footer_list ul{
+    list-style: none;
+    margin-top: 40px;
+}
+#footer_list a{
+    text-decoration: none;
+    color: black;
+}
+#footer_list a:hover{
+    color: #23AD8B;
+}
+#footer_list li{
+    margin-top: 22px;
+}
+.t1{
+    font-size: 20px;
+    font-weight: bold;
+}
+#contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+#app_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#app{
+    width: 260px;
+    height: 45px;
+}
+
+#Phoneapp{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#connect_parent{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#connect_parent img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+#phone{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    border: solid;
+    padding: 5px;
+    border-width: 2px;
+    border-radius: 10px;
+}
+#phone img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+#phone span{
+    font-weight: bold;
+}
+@media (max-width:500px){
+     nav button{
+        display: none;
+    }
+    
+    .nav_content{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    #logo{
+        order: 2;
+    }
+    .nav_content ul{
+        order: 1;
+        margin-left: 100px;
+    }
+    #cont-1{
+        flex-direction: column;
+    }
+    #main_right h2{
+        font-size: 22px;
+        margin-bottom: 5px;
+        padding-top: 20px;
+    }
+    #main_right p{
+        font-size: 15px;
+    }
+    #btn3{
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    #img{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+    #background2 h1{
+        font-size: 25px;
+    }
+    .s{
+        font-size: 30px;
+    }
+    #contact{
+        flex-direction: column;
+    }
+    #connect_parent{
+        margin: 0;
+    }
+    footer ul{
+        width: 45%;
+    }
+    #footer_list{
+        justify-content: center;
+        width: 100%;
+    }
+    #footer_list ul{
+        text-align: center;
+    }
+    #img img{
+        height: 120px;
+    }
+    .img_cont span{
+        font-size: 15px;
+    }
+    #background2 img{
+        height: 350px;
+    }
+    .H1{
+        font-size: 15px;
+    }
+    #search_div{
+        position: relative;
+        width: 280px;
+    }
+    #arrow_link{
+        position: absolute;
+        top: 24px;
+        right: 0;
+        padding-right: 0;
+    }
+    .Search{
+        position: absolute;
+        top: 15px;
+        width: 280px;
+        height: 30px;
+        border-radius: 20px;
+        border: 0px;
+        color: black;
+        opacity: 0.4;
+        padding-left: 9px;
+    }
+    header{
+       
+        height: 400px;
+    }    
+
+}
+
+

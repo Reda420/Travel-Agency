@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    height: 45px;
+    width: 100px;
+    margin-left: 90px;
+}
+nav{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul a{
+    color: #23AD8B;
+    margin: 0 1rem;
+    font-size: 18px;
+}
+
+nav ul a:hover{
+    color: #56dfbc;
+}
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#btn1{
+    outline: none;
+    border: 0;
+    padding: 14px 25px;
+    border-radius: 30px;
+    background-color: #23AD8B;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#btn1:hover{
+    background-color: #56dfbc;
+}
+#btn2{
+    outline: none;
+    border: solid 2px #23AD8B;
+    padding: 13px 25px;
+    border-radius: 30px;
+    background-color: white;
+    color: #23AD8B;
+    cursor: pointer;
+    transition:0.7s;
+}
+#btn2:hover{
+    background-color: #56dfbc;
+}
+
+.container{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: #999999;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 1px;
+    text-align: center;
+  }
+
+  .container input[type = "text"],.container input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: 1px solid #999999;
+    padding: 5px 30px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+  }
+
+  #login{
+      margin-bottom: 20px;
+      color: #0A7258;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #email{
+    position: relative;
+    top: 15px;
+    right: 30px;
+    font-family: sans-serif;
+    }
+
+#password{
+        position: relative;
+        top: 15px;
+        right: 96px;
+        font-family: sans-serif;    
+    }
+
+.container input[type = "submit"]{
+        border:0;
+        background-color: #0A7258;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #0A7258;
+        padding: 5px 60px;
+        outline: none;
+        color: 0A7258;
+        border-radius: 10px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+#forgor{
+        position: relative;
+        bottom: 14px;
+        font-family: sans-serif;
+        font-weight: 100;
+        color: #0066C0;
+    }
+
+#forgor:hover{
+    cursor: pointer;
+}
